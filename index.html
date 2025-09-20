@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BGN Alumni — Rhythm's Profile</title>
+    <meta name="description" content="BYLC Graduate Network Alumni Profile and Membership Verification for Rhythm">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="nav-logo">BGN</span>
+                <span class="nav-title">Alumni Network</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+                <li><a href="#membership" class="nav-link">Membership</a></li>
+                <li><a href="#events" class="nav-link">Events</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-name">Arefin Mostofa Rhythm</h1>
+                        <p class="hero-title">BYLC Graduate Network Alumni</p>
+                        <p class="hero-description">
+                            The BYLC Graduate Network (BGN) is a dynamic community of graduates from BYLC’s leadership programs, including the prestigious BBLT, YLS, and other initiatives. BGN serves as a lifelong platform for graduates to stay connected, collaborate, and contribute to building a more inclusive, just, and prosperous society.
+                        </p>
+                        <div class="hero-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Program:</span>
+                                <span class="detail-value">Leadership Development Program 2023</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Specialization:</span>
+                                <span class="detail-value">Community Organizing & Social Innovation</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Current Role:</span>
+                                <span class="detail-value">Program Coordinator at Youth Development Initiative</span>
+                            </div>
+                        </div>
+                        <div class="hero-actions">
+                            <a href="#membership" class="btn btn-primary">View Membership</a>
+                            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="./new.jpg" alt="Arefin Mostofa Rhythm - BYLC Alumni" class="profile-image">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <span class="overlay-text">BGN Member Since 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Membership Section -->
+        <section id="membership" class="section membership-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Membership Verification</h2>
+                    <p class="section-subtitle">Official BYLC Graduate Network membership card and activation</p>
+                </div>
+                
+                <div class="membership-content">
+                    <div class="membership-card" id="membership-card">
+                        <div class="card-header">
+                            <div class="card-logo">
+                                <span class="logo-text">BYLC</span>
+                                <span class="logo-subtitle">Graduate Network</span>
+                            </div>
+                            <div class="card-status">
+                                <span class="status-badge">VERIFIED</span>
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <div class="member-info">
+                                <h3 class="member-name">Arefin Mostofa Rhythm</h3>
+                                <p class="member-program">BYLC Graduate Network</p>
+                                <div class="member-details">
+                                    <div class="detail-row">
+                                        <span class="detail-label">Member ID:</span>
+                                        <span class="detail-value" id="member-id">BGN-271403950</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="detail-label">Issue Date:</span>
+                                        <span class="detail-value">September 20, 2025</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="detail-label">Valid Until:</span>
+                                        <span class="detail-value">March 15, 2030</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="qr-section">
+                                <div class="qr-code" aria-label="QR Code for membership verification">
+                                    <div class="qr-placeholder">
+                                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="80" height="80" fill="currentColor" opacity="0.1"/>
+                                            <rect x="10" y="10" width="15" height="15" fill="currentColor"/>
+                                            <rect x="55" y="10" width="15" height="15" fill="currentColor"/>
+                                            <rect x="10" y="55" width="15" height="15" fill="currentColor"/>
+                                            <rect x="30" y="30" width="20" height="20" fill="currentColor"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="qr-label">Scan for verification</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="activation-section">
+                        <h3 class="activation-title">Activate Your Membership</h3>
+                        <p class="activation-description">
+                            Click the button below to send an activation request to the BGN team. 
+                            Your membership details will be automatically included in the email.
+                        </p>
+                        <button class="btn btn-primary btn-large" id="activate-btn" onclick="activateMembership()">
+                            Activate Membership
+                        </button>
+                        <div class="print-actions">
+                            <button class="btn btn-secondary" onclick="printMembershipCard()">
+                                Print Membership Card
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events" class="section events-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Upcoming BYLC Events</h2>
+                    <p class="section-subtitle">Stay connected with the latest programs and networking opportunities</p>
+                </div>
+                
+                <div class="events-grid">
+                    <article class="event-card">
+                        <div class="event-image">
+                            <img src="./01.jpg" alt="Annual Alumni Reunion 2024">
+                        </div>
+                        <div class="event-content">
+                            <div class="event-date">
+                                <span class="date-day">15</span>
+                                <span class="date-month">Dec</span>
+                            </div>
+                            <div class="event-details">
+                                <h3 class="event-title">Annual Alumni Reunion 2024</h3>
+                                <p class="event-description">
+                                    Join fellow BGN members for our biggest networking event of the year. 
+                                    Reconnect with peers and celebrate achievements.
+                                </p>
+                                <div class="event-meta">
+                                    <span class="event-location">📍 BYLC Campus, Dhaka</span>
+                                    <span class="event-time">🕐 6:00 PM - 10:00 PM</span>
+                                </div>
+                                <a href="#" class="event-link">Register Now</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="event-card">
+                        <div class="event-image">
+                            <img src="./02.png" alt="Leadership Workshop Series">
+                        </div>
+                        <div class="event-content">
+                            <div class="event-date">
+                                <span class="date-day">22</span>
+                                <span class="date-month">Dec</span>
+                            </div>
+                            <div class="event-details">
+                                <h3 class="event-title">Leadership Workshop Series</h3>
+                                <p class="event-description">
+                                    Monthly workshop focusing on advanced leadership skills, 
+                                    team management, and social impact strategies.
+                                </p>
+                                <div class="event-meta">
+                                    <span class="event-location">📍 Virtual Event</span>
+                                    <span class="event-time">🕐 2:00 PM - 4:00 PM</span>
+                                </div>
+                                <a href="#" class="event-link">Join Workshop</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="event-card">
+                        <div class="event-image">
+                            <img src="./03.JPG" alt="Social Innovation Summit">
+                        </div>
+                        <div class="event-content">
+                            <div class="event-date">
+                                <span class="date-day">08</span>
+                                <span class="date-month">Jan</span>
+                            </div>
+                            <div class="event-details">
+                                <h3 class="event-title">Social Innovation Summit</h3>
+                                <p class="event-description">
+                                    Explore cutting-edge approaches to social challenges with 
+                                    industry leaders and change-makers.
+                                </p>
+                                <div class="event-meta">
+                                    <span class="event-location">📍 International Convention City</span>
+                                    <span class="event-time">🕐 9:00 AM - 6:00 PM</span>
+                                </div>
+                                <a href="#" class="event-link">Learn More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="event-card">
+                        <div class="event-image">
+                            <img src="./04.jpg" alt="Mentorship Program Launch">
+                        </div>
+                        <div class="event-content">
+                            <div class="event-date">
+                                <span class="date-day">20</span>
+                                <span class="date-month">Jan</span>
+                            </div>
+                            <div class="event-details">
+                                <h3 class="event-title">Mentorship Program Launch</h3>
+                                <p class="event-description">
+                                    Connect with experienced professionals and emerging leaders 
+                                    in our new structured mentorship initiative.
+                                </p>
+                                <div class="event-meta">
+                                    <span class="event-location">📍 BYLC Hub</span>
+                                    <span class="event-time">🕐 4:00 PM - 7:00 PM</span>
+                                </div>
+                                <a href="#" class="event-link">Apply Now</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="section-subtitle">Connect with me for collaboration opportunities or professional networking</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3 class="contact-title">Email</h3>
+                            <a href="info@bgn.bylc.org" class="contact-link">info@bgn.bylc.org</a>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h3 class="contact-title">Social Media</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link" aria-label="LinkedIn Profile">LinkedIn</a>
+                                <a href="#" class="social-link" aria-label="Twitter Profile">Twitter</a>
+                                <a href="#" class="social-link" aria-label="Instagram Profile">Instagram</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h3 class="contact-title">Professional Focus</h3>
+                            <ul class="focus-list">
+                                <li>Youth Leadership Development</li>
+                                <li>Community Organizing</li>
+                                <li>Social Innovation Projects</li>
+                                <li>Cross-cultural Collaboration</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-input" required aria-describedby="name-error">
+                            <span class="form-error" id="name-error" role="alert"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-input" required aria-describedby="email-error">
+                            <span class="form-error" id="email-error" role="alert"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="organization" class="form-label">Organization</label>
+                            <input type="text" id="organization" name="organization" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject *</label>
+                            <select id="subject" name="subject" class="form-input" required aria-describedby="subject-error">
+                                <option value="">Select a subject</option>
+                                <option value="collaboration">Collaboration Opportunity</option>
+                                <option value="networking">Professional Networking</option>
+                                <option value="mentorship">Mentorship Request</option>
+                                <option value="speaking">Speaking Engagement</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <span class="form-error" id="subject-error" role="alert"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" rows="5" required aria-describedby="message-error"></textarea>
+                            <span class="form-error" id="message-error" role="alert"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2024 BGN Alumni | Member of BYLC Graduate Network</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://bylc.org" target="_blank" rel="noopener noreferrer">BYLC Official</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">BGN Directory</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
